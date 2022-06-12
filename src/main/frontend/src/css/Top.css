@@ -26,6 +26,7 @@
 	left: 36%;
     position: relative;
     top: 8px;
+	list-style: none;
 }
 
 .img_profile {
@@ -44,10 +45,6 @@
 .Top{
 	width:1280px;
 	margin: 0 auto;
-}
-
-.Top a{
-	list-style: none;
 }
 
 .Top .logo img{
