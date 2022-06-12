@@ -130,6 +130,7 @@ export default function EditTool(props) {
     }
 
     function download() {
+        // const image = canvas.toDataURL("image/png");
         const image = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
         console.log('image : ', image);
 
