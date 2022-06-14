@@ -59,6 +59,7 @@ public class FileUploadController {
         try {
             byte[] decoded = DatatypeConverter.parseBase64Binary(strings[1]);
             log.info("File Upload Controller decoded : " + decoded);
+            log.info("File Upload Controller decoded : " + new String(decoded, "UTF-8"));
 
             Date nowTime = new Date();
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy년 MM월 dd일");
